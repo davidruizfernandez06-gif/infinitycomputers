@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "885809290549",
+    "project_id": "infinitycomputers-f545b",
+    "storage_bucket": "infinitycomputers-f545b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:885809290549:android:7da3613154bc027923007c",
+        "android_client_info": {
+          "package_name": "com.example.infinitycomputers"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCniNcqa4gVsaZuuGWZkRL82xrLor-hDhU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
