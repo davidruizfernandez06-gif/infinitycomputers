@@ -63,6 +63,9 @@ class PanelActivity : AppCompatActivity() {
             startActivity(intent)
             finish()
         }
+        binding.btnRegistrarTecnico.setOnClickListener {
+            startActivity(Intent(this, RegistrarTecnicoActivity::class.java))
+        }
     }
 
     private fun escucharClientesEnTiempoReal() {
@@ -99,4 +102,5 @@ class PanelActivity : AppCompatActivity() {
         super.onDestroy()
         clientesListener?.remove()
     }
+
 }
