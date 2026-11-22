@@ -1,9 +1,7 @@
 <resources>
     <string name="app_name">infinitycomputers</string>
-    <string name="titulo_panel_wisp">InfinityComputers • WISP</string>
     <string name="btn_crud_clientes">CRUD Clientes</string>
     <string name="btn_herramientas_campo">Campo / Sensores</string>
-    <string name="btn_cerrar_sesion">Cerrar sesión</string>
         <string name="desc_logo_empresa">Logo de InfinityComputers</string>
         <string name="titulo_crud_clientes">Clientes WISP</string>
         <string name="subtitulo_crud_clientes">Consulta, alta y edición en campo</string>
@@ -49,10 +47,9 @@
 
     <!-- Acciones Principales del Técnico -->
     <string name="seccion_acciones_panel">Herramientas y gestión</string>
-    <string name="btn_crud_clientes">Clientes (CRUD)</string>
     <string name="btn_sensores_campo">Sensores en campo</string>
     <string name="btn_registrar_tecnico">Registrar técnico</string>
 
     <!-- Lista Dinámica RecyclerView -->
-    <string name="seccion_lista_clientes">Clientes registrados (tiempo real)</string>
+    <string name="seccion_lista_clientes">Clientes registrados</string>
     </resources>
