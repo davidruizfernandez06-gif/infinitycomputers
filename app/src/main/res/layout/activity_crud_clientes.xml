@@ -23,9 +23,9 @@
 
             <ImageView
                 android:id="@+id/ivLogoEmpresa"
-                android:layout_width="130dp"
-                android:layout_height="130dp"
-                android:contentDescription="Logo de InfinityComputers"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:contentDescription="@string/desc_logo_empresa"
                 android:scaleType="fitCenter"
                 android:src="@drawable/logo" />
 
@@ -40,7 +40,7 @@
                     android:id="@+id/tvTituloCrud"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Clientes WISP"
+                    android:text="@string/titulo_crud_clientes"
                     android:textSize="20sp"
                     android:textStyle="bold" />
 
@@ -48,7 +48,7 @@
                     android:id="@+id/tvSubtituloCrud"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Consulta, alta y edición en campo"
+                    android:text="@string/subtitulo_crud_clientes"
                     android:textSize="13sp" />
             </LinearLayout>
         </LinearLayout>
@@ -64,7 +64,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Búsqueda rápida"
+                android:text="@string/seccion_busqueda_rapida"
                 android:textSize="14sp"
                 android:textStyle="bold" />
 
@@ -72,7 +72,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="6dp"
-                android:text="ID Cliente"
+                android:text="@string/label_id_cliente"
                 android:textSize="12sp"
                 android:textStyle="bold" />
 
@@ -89,7 +89,7 @@
                     android:layout_height="48dp"
                     android:layout_marginEnd="8dp"
                     android:layout_weight="1"
-                    android:hint="Ej. 37373"
+                    android:hint="@string/hint_id_cliente"
                     android:inputType="text"
                     android:maxLines="1" />
 
@@ -98,7 +98,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="48dp"
                     android:maxLines="1"
-                    android:text="Buscar" />
+                    android:text="@string/btn_buscar_cliente" />
             </LinearLayout>
         </LinearLayout>
 
@@ -112,7 +112,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Datos del cliente"
+            android:text="@string/seccion_datos_cliente"
             android:textSize="14sp"
             android:textStyle="bold" />
 
@@ -120,7 +120,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:text="Nombre completo"
+            android:text="@string/label_nombre_completo"
             android:textSize="12sp"
             android:textStyle="bold" />
 
@@ -129,7 +129,7 @@
             android:layout_width="match_parent"
             android:layout_height="48dp"
             android:layout_marginTop="2dp"
-            android:hint="Ej. David Ruiz Fernández"
+            android:hint="@string/hint_nombre_completo"
             android:inputType="textPersonName"
             android:maxLines="1" />
 
@@ -149,7 +149,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Localidad"
+                    android:text="@string/label_localidad"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -158,7 +158,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="48dp"
                     android:layout_marginTop="2dp"
-                    android:hint="Ej. Doxteje Centro"
+                    android:hint="@string/hint_localidad"
                     android:inputType="text"
                     android:maxLines="1" />
             </LinearLayout>
@@ -173,7 +173,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Teléfono"
+                    android:text="@string/label_telefono"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -182,7 +182,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="48dp"
                     android:layout_marginTop="2dp"
-                    android:hint="10 dígitos"
+                    android:hint="@string/hint_telefono"
                     android:inputType="phone"
                     android:maxLines="1" />
             </LinearLayout>
@@ -193,7 +193,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="14dp"
-            android:text="Servicio y red"
+            android:text="@string/seccion_servicio_red"
             android:textSize="14sp"
             android:textStyle="bold" />
 
@@ -201,7 +201,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:text="Dirección IP"
+            android:text="@string/label_direccion_ip"
             android:textSize="12sp"
             android:textStyle="bold" />
 
@@ -210,7 +210,7 @@
             android:layout_width="match_parent"
             android:layout_height="48dp"
             android:layout_marginTop="2dp"
-            android:hint="Ej. 192.168.100.2"
+            android:hint="@string/hint_direccion_ip"
             android:inputType="text"
             android:maxLines="1" />
 
@@ -230,7 +230,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Plan mensual"
+                    android:text="@string/label_plan_mensual"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -239,7 +239,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="48dp"
                     android:layout_marginTop="2dp"
-                    android:hint="Ej. 40 Mbps"
+                    android:hint="@string/hint_plan_mensual"
                     android:inputType="text"
                     android:maxLines="1" />
             </LinearLayout>
@@ -254,7 +254,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Estado"
+                    android:text="@string/label_estado_servicio"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -263,10 +263,10 @@
                     android:layout_width="match_parent"
                     android:layout_height="48dp"
                     android:layout_marginTop="2dp"
-                    android:hint="Activo / Suspendido"
+                    android:hint="@string/hint_estado_servicio"
                     android:inputType="text"
                     android:maxLines="1"
-                    android:text="Activo" />
+                    android:text="@string/estado_activo" />
             </LinearLayout>
         </LinearLayout>
 
@@ -284,7 +284,7 @@
                 android:layout_marginEnd="6dp"
                 android:layout_weight="1"
                 android:maxLines="1"
-                android:text="Guardar" />
+                android:text="@string/btn_guardar_cliente" />
 
             <Button
                 android:id="@+id/btnActualizarCrud"
@@ -293,7 +293,7 @@
                 android:layout_marginStart="6dp"
                 android:layout_weight="1"
                 android:maxLines="1"
-                android:text="Actualizar" />
+                android:text="@string/btn_actualizar_cliente" />
         </LinearLayout>
 
         <!-- ACCIONES SECUNDARIAS: LIMPIAR Y ELIMINAR -->
@@ -311,7 +311,7 @@
                 android:layout_marginEnd="6dp"
                 android:layout_weight="1"
                 android:maxLines="1"
-                android:text="Limpiar" />
+                android:text="@string/btn_limpiar_campos" />
 
             <Button
                 android:id="@+id/btnEliminarCrud"
@@ -321,9 +321,7 @@
                 android:layout_marginStart="6dp"
                 android:layout_weight="1"
                 android:maxLines="1"
-                android:text="Eliminar" />
-
-
+                android:text="@string/btn_eliminar_cliente" />
         </LinearLayout>
 
         <!-- VOLVER AL PANEL -->
@@ -333,7 +331,7 @@
             android:layout_height="48dp"
             android:layout_marginTop="10dp"
             android:maxLines="1"
-            android:text="Volver al panel" />
+            android:text="@string/btn_volver_panel" />
 
     </LinearLayout>
 </ScrollView>

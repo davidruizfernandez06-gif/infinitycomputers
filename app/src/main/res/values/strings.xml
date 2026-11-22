@@ -4,4 +4,55 @@
     <string name="btn_crud_clientes">CRUD Clientes</string>
     <string name="btn_herramientas_campo">Campo / Sensores</string>
     <string name="btn_cerrar_sesion">Cerrar sesión</string>
-</resources>
+        <string name="desc_logo_empresa">Logo de InfinityComputers</string>
+        <string name="titulo_crud_clientes">Clientes WISP</string>
+        <string name="subtitulo_crud_clientes">Consulta, alta y edición en campo</string>
+
+        <!-- Secciones y Etiquetas Fijas -->
+        <string name="seccion_busqueda_rapida">Búsqueda rápida</string>
+        <string name="label_id_cliente">ID Cliente</string>
+        <string name="hint_id_cliente">Ej. 37373 o CLI-001</string>
+
+        <string name="seccion_datos_cliente">Datos del cliente</string>
+        <string name="label_nombre_completo">Nombre completo</string>
+        <string name="hint_nombre_completo">Ej. David Ruiz Fernández</string>
+
+        <string name="label_localidad">Localidad</string>
+        <string name="hint_localidad">Ej. Doxteje Centro</string>
+
+        <string name="label_telefono">Teléfono</string>
+        <string name="hint_telefono">10 dígitos</string>
+
+        <string name="seccion_servicio_red">Servicio y red</string>
+        <string name="label_direccion_ip">Dirección IP</string>
+        <string name="hint_direccion_ip">Ej. 192.168.100.2</string>
+
+        <string name="label_plan_mensual">Plan mensual</string>
+        <string name="hint_plan_mensual">Ej. 40 Mbps</string>
+
+        <string name="label_estado_servicio">Estado</string>
+        <string name="hint_estado_servicio">Activo / Suspendido</string>
+        <string name="estado_activo">Activo</string>
+
+        <string name="btn_buscar_cliente">Buscar</string>
+        <string name="btn_guardar_cliente">Guardar</string>
+        <string name="btn_actualizar_cliente">Actualizar</string>
+        <string name="btn_limpiar_campos">Limpiar</string>
+        <string name="btn_eliminar_cliente">Eliminar</string>
+        <string name="btn_volver_panel">Volver al panel</string>
+
+    <!-- Encabezado y Sesión en Panel -->
+    <string name="desc_logo_panel">Logo de InfinityComputers</string>
+    <string name="titulo_panel_wisp">Panel Operativo WISP</string>
+    <string name="subtitulo_panel_wisp">InfinityComputers • Control en campo</string>
+    <string name="btn_cerrar_sesion">Cerrar sesión</string>
+
+    <!-- Acciones Principales del Técnico -->
+    <string name="seccion_acciones_panel">Herramientas y gestión</string>
+    <string name="btn_crud_clientes">Clientes (CRUD)</string>
+    <string name="btn_sensores_campo">Sensores en campo</string>
+    <string name="btn_registrar_tecnico">Registrar técnico</string>
+
+    <!-- Lista Dinámica RecyclerView -->
+    <string name="seccion_lista_clientes">Clientes registrados (tiempo real)</string>
+    </resources>
