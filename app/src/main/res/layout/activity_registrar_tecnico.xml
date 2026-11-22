@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainRegistrarTecnico"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- ENCABEZADO COMPACTO CON LOGO -->
+        <LinearLayout
+            android:id="@+id/layoutHeaderRegistrarTecnico"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingTop="4dp"
+            android:paddingBottom="16dp">
+
+            <ImageView
+                android:id="@+id/ivLogoRegistrarTecnico"
+                android:layout_width="96dp"
+                android:layout_height="48dp"
+                android:contentDescription="@string/desc_logo_empresa"
+                android:scaleType="fitCenter"
+                android:src="@drawable/logo" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvTituloRegistrarTecnico"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/titulo_registrar_tecnico"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvSubtituloRegistrarTecnico"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/subtitulo_registrar_tecnico"
+                    android:textSize="13sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- CORREO -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_correo_tecnico"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etCorreoTecnico"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="4dp"
+            android:hint="@string/hint_correo_tecnico"
+            android:inputType="textEmailAddress"
+            android:maxLines="1" />
+
+        <!-- CONTRASEÑA -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="@string/label_password_tecnico"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etPasswordTecnico"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="4dp"
+            android:hint="@string/hint_password_tecnico"
+            android:inputType="textPassword"
+            android:maxLines="1" />
+
+        <!-- CONFIRMAR CONTRASEÑA -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="@string/label_confirmar_password"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etConfirmarPasswordTecnico"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="4dp"
+            android:hint="@string/hint_confirmar_password"
+            android:inputType="textPassword"
+            android:maxLines="1" />
+
+        <!-- BOTÓN CREAR CUENTA -->
+        <Button
+            android:id="@+id/btnCrearCuentaTecnico"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="20dp"
+            android:maxLines="1"
+            android:text="@string/btn_crear_cuenta_tecnico" />
+
+        <!-- BOTÓN VOLVER AL PANEL -->
+        <Button
+            android:id="@+id/btnVolverPanelTecnico"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="10dp"
+            android:maxLines="1"
+            android:text="@string/btn_volver_panel_tecnico" />
+
+    </LinearLayout>
+</ScrollView>
