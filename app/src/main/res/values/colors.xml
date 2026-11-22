@@ -2,4 +2,15 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="sensor_fondo_tarjeta">#F4F6F9</color>
+    <color name="sensor_borde_neutro">#D0D7DE</color>
+
+    <color name="sensor_ok_fondo">#E6F4EA</color>
+    <color name="sensor_ok_texto">#137333</color>
+
+    <color name="sensor_alerta_fondo">#FEF7E0</color>
+    <color name="sensor_alerta_texto">#B06000</color>
+
+    <color name="sensor_peligro_fondo">#FCE8E6</color>
+    <color name="sensor_peligro_texto">#C5221F</color>
 </resources>

@@ -66,6 +66,9 @@ class PanelActivity : AppCompatActivity() {
         binding.btnRegistrarTecnico.setOnClickListener {
             startActivity(Intent(this, RegistrarTecnicoActivity::class.java))
         }
+        binding.btnIrSensores.setOnClickListener {
+            startActivity(Intent(this, SensoresCampoActivity::class.java))
+        }
     }
 
     private fun escucharClientesEnTiempoReal() {

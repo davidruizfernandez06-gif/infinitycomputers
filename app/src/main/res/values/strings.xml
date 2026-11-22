@@ -70,4 +70,30 @@
     <string name="error_password_no_coincide">Las contraseñas no coinciden</string>
     <string name="msg_tecnico_registrado">Técnico registrado correctamente</string>
 
+    <!-- Sensores en Campo -->
+    <string name="titulo_sensores_campo">Sensores en Campo</string>
+    <string name="subtitulo_sensores_campo">Alineación de antena y nivelación de mástil</string>
+
+    <string name="card_nivel_titulo">Nivelación de Torre / CPE</string>
+    <string name="card_nivel_subtitulo">Tolerancia recomendada &lt; 5°</string>
+    <string name="label_inclinacion_grados">Inclinación</string>
+    <string name="valor_inclinacion_inicial">0.0°</string>
+    <string name="estado_nivel_esperando">Calibrando lectura…</string>
+    <string name="estado_nivel_optimo">NIVELADO — Montaje estable</string>
+    <string name="estado_nivel_precaucion">LEVE DESVIACIÓN — Ajustar abrazadera</string>
+    <string name="estado_nivel_critico">DESNIVELADO — Corregir inclinación</string>
+
+    <string name="card_brujula_titulo">Azimut / Orientación de Enlace</string>
+    <string name="card_brujula_subtitulo">Magnetómetro + Acelerómetro • Apuntar hacia torre</string>
+    <string name="valor_azimut_inicial">0° N</string>
+    <string name="estado_brujula_activa">Brújula calibrada en tiempo real</string>
+    <string name="estado_brujula_no_disp">Magnetómetro no disponible en este equipo</string>
+
+    <string name="seccion_detalle_tecnico">Telemetría cruda (ejes X / Y / Z)</string>
+    <string name="formato_ejes_xyz">X: %1$.2f m/s²   •   Y: %2$.2f m/s²   •   Z: %3$.2f m/s²</string>
+
+    <string name="btn_pausar_sensores">Congelar lectura</string>
+    <string name="btn_reanudar_sensores">Reanudar lectura</string>
+    <string name="btn_volver_panel_sensores">Volver al panel</string>
+
 </resources>
