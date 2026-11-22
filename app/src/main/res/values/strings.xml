@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">infinitycomputers</string>
+    <string name="titulo_panel_wisp">InfinityComputers • WISP</string>
+    <string name="btn_crud_clientes">CRUD Clientes</string>
+    <string name="btn_herramientas_campo">Campo / Sensores</string>
+    <string name="btn_cerrar_sesion">Cerrar sesión</string>
 </resources>

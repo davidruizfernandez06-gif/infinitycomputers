@@ -61,7 +61,7 @@ class MainActivity : AppCompatActivity() {
             auth.signInWithEmailAndPassword(correo, password)
                 .addOnCompleteListener(this) { task ->
                     if (task.isSuccessful) {
-                        Toast.makeText(this, "Bienvenido a InfinityComputers", Toast.LENGTH_SHORT).show()
+                        Toast.makeText(this, "Bienvenido", Toast.LENGTH_SHORT).show()
                         irAlPanelPrincipal()
                     } else {
                         Toast.makeText(
@@ -85,7 +85,7 @@ class MainActivity : AppCompatActivity() {
                     val mensaje = when (errorCode) {
                         BiometricPrompt.ERROR_USER_CANCELED,
                         BiometricPrompt.ERROR_NEGATIVE_BUTTON ->
-                            "Autenticación cancelada por el usuario."
+                            "Huella desactivada por el usuario."
                         BiometricPrompt.ERROR_LOCKOUT ->
                             "Demasiados intentos fallidos. Sensor bloqueado temporalmente (30s)."
                         BiometricPrompt.ERROR_LOCKOUT_PERMANENT ->
@@ -98,7 +98,7 @@ class MainActivity : AppCompatActivity() {
 
                 override fun onAuthenticationSucceeded(result: BiometricPrompt.AuthenticationResult) {
                     super.onAuthenticationSucceeded(result)
-                    Toast.makeText(applicationContext, "¡Huella verificada con éxito!", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(applicationContext, "Bienvenido", Toast.LENGTH_SHORT).show()
                     irAlPanelPrincipal()
                 }
 

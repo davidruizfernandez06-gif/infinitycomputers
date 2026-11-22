@@ -13,17 +13,20 @@
         android:layout_height="wrap_content"
         android:padding="24dp">
 
-        <TextView
-            android:id="@+id/tvTituloApp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="36dp"
-            android:text="InfinityComputers"
-            android:textSize="28sp"
-            android:textStyle="bold"
+        <!-- ICONO SUPERIOR -->
+        <ImageView
+            android:id="@+id/ivLogoApp"
+            android:layout_width="240dp"
+            android:layout_height="180dp"
+            android:layout_marginTop="24dp"
+            android:contentDescription="Logo de InfinityComputers"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/logo"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
+
+
 
         <TextView
             android:id="@+id/tvSubtituloApp"
@@ -34,9 +37,8 @@
             android:textSize="14sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/tvTituloApp" />
+            app:layout_constraintTop_toBottomOf="@id/ivLogoApp" />
 
-        <!-- MÉTODO 1: ACCESO BIOMÉTRICO (PRINCIPAL) -->
         <Button
             android:id="@+id/btnLoginHuella"
             android:layout_width="0dp"
